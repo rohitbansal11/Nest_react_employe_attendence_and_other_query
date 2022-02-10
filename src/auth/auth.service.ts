@@ -53,7 +53,7 @@ async registerUser(body:BaseTodoDto){
             position:saveUser?.position,
             empId:saveUser?.empId,
             role:saveUser?.role,
-            name:saveUser?.role,
+            name:saveUser?.name,
             token:jwt
     
           }
